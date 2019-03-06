@@ -1,4 +1,4 @@
-# Cùng nhau học lập trình - youtube.com/c/tranducloi
+# Cùng nhau học lập trình - [youtube.com/c/tranducloi](youtube.com/c/tranducloi)
 Đây là nơi cung cấp hướng dẫn, giải thích, chỉ mục (table of content), đường link và sourcecode cho toàn bộ các bài giảng trên kênh [youtube.com/c/tranducloi](https://youtube.com/c/tranducloi) về chủ đề `Cùng nhau học lập trình`.  
 Các bài học đã được chia thành các ngôn ngữ và chủ đề chính. Muốn tham khảo, học bài nào các bạn vào từng folder tương ứng với chủ đề đó sẽ có hướng dẫn và chỉ mục tiếp.  
 Ví dụ: muốn tìm hiểu và xem các nội dung về ngôn ngữ lập trình Python hãy vào thư mục `Python`, trong foler này sẽ có mục lục toàn bộ các bài giảng về Python với hướng dẫn nội dung từng bài. Muốn tham khảo code hoặc học chi tiết bài nào bạn có thể vào thư mục chứa bài đó và xem trên kênh [youtube.com/c/tranducloi](https://youtube.com/c/tranducloi) với bài học nằm trong playlist tương ứng. Mong rằng với việc hệ thống hóa nội dung sẽ giúp các bạn học tốt hơn.  
