@@ -27,4 +27,7 @@ Một số bài học dù trong bài học có code nhưng hiện tôi chưa tì
 3.2. [[NodeJS] Bài 01: Hello World trong NodeJS - Hướng dẫn học NodeJS](https://www.youtube.com/watch?v=0ukPEhf7XU4&list=PLzEEDSVPTnyc-ppt8V62HO3TOssXFvfcO&index=2)  
 3.3. [[NodeJS] Bài 02 Gọi API với module Request - Hướng dẫn học NodeJS](https://www.youtube.com/watch?v=0ukPEhf7XU4&list=PLzEEDSVPTnyc-ppt8V62HO3TOssXFvfcO&index=3)  
 3.4. [[NodeJS] Bài 03 Đọc file config JSON với module fs - Hướng dẫn học NodeJS](https://www.youtube.com/watch?v=0ukPEhf7XU4&list=PLzEEDSVPTnyc-ppt8V62HO3TOssXFvfcO&index=4)  
-
+### Phần 4. [Python Flask Tutorial From Basics (Season 1)](https://www.youtube.com/playlist?list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)
+4.1. [Chọn IDE cho lập trình Python, Ruby, Perl, NodeJS, PHP](https://www.youtube.com/watch?v=7LPMps7cnoE&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS&index=2&t=2s)  
+4.13. [Giới thiệu Virtual Environment ý nghĩa và cách sử dụng trong Python](https://www.youtube.com/watch?v=0YEMrz76V30&index=14&t=10s&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)  
+4.14. [14. Thí nghiệm sự khác nhau giữa Python 32 bit và 64 bit](https://www.youtube.com/watch?v=KcDP7qH-oUE&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS&index=15&t=0s)  
