@@ -1,0 +1,14 @@
+1. Cài đặt pipenv
+pip install pipenv
+2. Kiểm tra cài đặt
+pipenv
+3. Tạo 1 Virtual Environment chỉ định phiên bản Python 3.4
+pipenv --python 3.4
+4. Cài 1 gói trên VE
+pipenv install tên_gói
+5. pipenv lock -r > req.loi
+6. pipenv install -r req.loi
+7. pipenv uninstall tên_gói
+8. pipenv uninstall -r req.loi
+9. pipenv clean
+10. pipenv update
