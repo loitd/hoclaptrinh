@@ -4,4 +4,6 @@
 *.wav
 *.xls
 *.xlsx
+*.pptx
 games
+node_modules
