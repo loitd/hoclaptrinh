@@ -2,7 +2,7 @@
 Đây là nơi cung cấp hướng dẫn, giải thích, chỉ mục (table of content), đường link và sourcecode cho toàn bộ các bài giảng trên kênh [youtube.com/c/tranducloi](https://youtube.com/c/tranducloi) về chủ đề `Cùng nhau học lập trình`.  
 Các bài học đã được chia thành các ngôn ngữ và chủ đề chính. Muốn tham khảo, học bài nào các bạn vào từng folder tương ứng với chủ đề đó sẽ có hướng dẫn và chỉ mục tiếp.  
 Ví dụ: muốn tìm hiểu và xem các nội dung về ngôn ngữ lập trình Python hãy vào thư mục `Python`, trong foler này sẽ có mục lục toàn bộ các bài giảng về Python với hướng dẫn nội dung từng bài. Muốn tham khảo code hoặc học chi tiết bài nào bạn có thể vào thư mục chứa bài đó và xem trên kênh [youtube.com/c/tranducloi](https://youtube.com/c/tranducloi) với bài học nằm trong playlist tương ứng. Mong rằng với việc hệ thống hóa nội dung sẽ giúp các bạn học tốt hơn.  
-Một số bài học dù trong bài học có code nhưng hiện tôi chưa tìm lại và bổ sung kịp sẽ không có code trên git. Mong các bạn thông cảm.
+Một số bài học dù đã có trên youtube nhưng chưa kịp cập nhật chỉ mục và trong bài học có code nhưng hiện tôi chưa tìm lại và bổ sung kịp sẽ không có code trên git. Mong các bạn thông cảm.
 ## Mục lục
 ### [Basics](https://www.youtube.com/playlist?list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)  
 1. [[Căn bản] Để hiểu các khái niệm cơ bản về lập trình hướng đối tượng OOP](https://www.youtube.com/watch?v=NWGEiPXVDtk&index=2&t=0s&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
