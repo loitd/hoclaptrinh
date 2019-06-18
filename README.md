@@ -22,8 +22,11 @@ Một số bài học dù đã có trên youtube nhưng chưa kịp cập nhật
 15. [CI/CD là gì? Sự khác nhau giữa Continous Delivery và Continous Deployment]
 16. [CI/CD phần 2: Demo sử dụng Travis CI với 1 ứng dụng]
 17. [Tìm hiểu về HTTPS, SSL, TLS và cách hoạt động](https://www.youtube.com/watch?v=jZ10cfdHpL4&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC&index=18&t=0s)
+18. [Lập trình hướng đối tượng trong Javascript]()
+19. [Giới thiệu HeidiSQL tool quản lý database MySQL, SQLServer, Postgre đa năng, gọn nhẹ](https://www.youtube.com/watch?v=27l812Pj_hY)
 ### [Học lập trình di động với React Native](https://www.youtube.com/playlist?list=PLzEEDSVPTnyd7cuaPVHFhTUT5oA_v4YyI)
 01. [Bài 1: Giới thiệu React Native](https://www.youtube.com/watch?v=xp3MqRPfHS8&list=PLzEEDSVPTnyd7cuaPVHFhTUT5oA_v4YyI&index=2&t=0s)
+02. [Bài 2: Tạo ứng dụng đầu tiên với Reac Native](https://www.youtube.com/watch?v=ABBGBHnZARQ)
 ### [Tìm hiểu Machine Learning](https://www.youtube.com/watch?v=0U3MAd26zRY&list=PLzEEDSVPTnyeacZAoTcSOn_yB_s_voAV6)
 1. [[Machine Learning] Giới thiệu về Machine Learning, phân loại, ví dụ và cài đặt](https://www.youtube.com/watch?v=0U3MAd26zRY&list=PLzEEDSVPTnyeacZAoTcSOn_yB_s_voAV6)  
 2. [[Machine Learning] Giải thích một số thuật ngữ, giới thiệu & giải thích ví dụ của thư viện Python](https://www.youtube.com/watch?v=AKoENjM-oD4&list=PLzEEDSVPTnyeacZAoTcSOn_yB_s_voAV6&index=2)  
@@ -41,6 +44,7 @@ Một số bài học dù đã có trên youtube nhưng chưa kịp cập nhật
 15. [Giới thiệu và hướng dẫn sử dụng Python Decorator](https://www.youtube.com/watch?v=XUnfZ8H5utQ&index=16&t=2s&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)  
 16. [Hướng dẫn gửi Gmail có attach trong Python](https://www.youtube.com/watch?v=XUnfZ8H5utQ&index=17&t=2s&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)  
 17. [Hướng dẫn làm việc với Excel XLSX trong Python với Openpyxl](https://www.youtube.com/watch?v=XUnfZ8H5utQ&index=18&t=2s&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)  
+17. [[Học Python] Giới thiệu hàm printx (ghi log file) và thư viện lutils](https://www.youtube.com/watch?v=XUnfZ8H5utQ&index=19&t=2s&list=PLzEEDSVPTnycer033DPRTSgHYC1eCsVVS)  
 ### [SQL Basic (Season 1)](https://www.youtube.com/playlist?list=PLzEEDSVPTnyeE__18ofuX7qentGovVvEi)
 1. [Học SQL căn bản 01: Giới thiệu SQL](https://www.youtube.com/watch?v=nNB6Ymgkk4g&list=PLzEEDSVPTnyeE__18ofuX7qentGovVvEi&index=2&t=42s)
 2. [Học SQL căn bản 02: Cài đặt cơ sở dữ liệu demo](https://www.youtube.com/watch?v=u_C2MGdNjFc&list=PLzEEDSVPTnyeE__18ofuX7qentGovVvEi&index=3&t=0s)
