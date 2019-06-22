@@ -1,2 +1,0 @@
-import halo
-print("ABC")
