@@ -5,5 +5,7 @@
 *.xls
 *.xlsx
 *.pptx
+*.mp3
+*.flv
 games
 node_modules
