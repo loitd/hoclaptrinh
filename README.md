@@ -14,7 +14,7 @@ Một số bài học dù đã có trên youtube nhưng chưa kịp cập nhật
 7. [How to compile and run programs right in Sublime Text - Sublime Text Tutorial](https://www.youtube.com/watch?v=uljf1gznh5g&t=0s&index=8&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
 8. [5 cách chạy các lệnh Linux (ls, grep) trên Windows](https://www.youtube.com/watch?v=KjsdLiDh6S8&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC&index=9&t=0s)   
 9. [Hướng dẫn cài đặt và sử dụng Composer trên Windows](https://www.youtube.com/watch?v=2ZhTzzwQhiQ&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC&index=10&t=0s)   
-10. [SQLite Database Manage Tool - Hướng dẫn Cài đặt và sử dụng công cụ quản trị CSDL SQLite](https://www.youtube.com/watch?v=WYWT1hty2iQ&t=0s&index=11&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
+10. [SQLite Database Manage Tool - Hướng dẫn Cài đặt và sử dụng công cụ quản trị CSDL SQLite](https://www.youtube.com/watch?v=WYWT1hty2iQ&t=0s&index=11&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)  
 11. [Hướng dẫn cài đặt và sử dụng Redis Server trên Windows](https://www.youtube.com/watch?v=iyVHGO1hWYQ&t=0s&index=12&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
 12. [Hướng dẫn cài đặt extension cho Sublime Text 3 ví dụ với Typescript Extension](https://www.youtube.com/watch?v=pC6qErEcvVs&t=0s&index=13&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
 13. [Giới Thiệu IDE cho Python, JS: Visual Studio Code | IDE Programming Tools Introduction](https://www.youtube.com/watch?v=XoOiCdGhFRA&t=0s&index=14&list=PLzEEDSVPTnycst5sYvACyTR0dklKZ2ITC)   
