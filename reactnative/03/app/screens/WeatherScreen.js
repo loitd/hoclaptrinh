@@ -18,6 +18,10 @@ export default class WeatherScreen extends React.Component{
         };
     }
 
+    componentDidMount(){
+        console.log("Yeah, WeatherScreen mounted!");
+    }
+
     handleLocationUpdated = (newlocation) => {
         this.setState({location: newlocation});
     };
