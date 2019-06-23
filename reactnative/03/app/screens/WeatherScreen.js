@@ -11,6 +11,17 @@ import {View, Text, Image,
 import SearchInput from '../components/SearchInput'
 
 export default class WeatherScreen extends React.Component{
+    constructor (props) {
+        super(props);
+        this.state = {
+            location: 'Hà Nội',
+        };
+    }
+
+    handleLocationUpdated = (newlocation) => {
+        this.setState({location: newlocation});
+    };
+    
     // define static methods
     static navigationOptions = {
         header: null,
@@ -19,7 +30,7 @@ export default class WeatherScreen extends React.Component{
     // begin render
     render() {
         // default location
-        const location = 'Hà Nội';
+        const {location} = this.state;
 
         return (
             <KeyboardAvoidingView style={mstyles.container} behavior="padding">       
@@ -34,7 +45,8 @@ export default class WeatherScreen extends React.Component{
                         <Text style={[mstyles.h2, mstyles.txt]}>23°C</Text>
                         
                         <SearchInput placeholder="Tìm kiếm địa danh"
-                        placeholderTextColor="black"/>
+                        placeholderTextColor="black"
+                        onSubmit={this.handleLocationUpdated}/>
                         {/* The way we call image in React Native */}
                         {/* <Image source={require('../assets/images/background.jpg')} style={mstyles.backgroundimg} /> */}
 
