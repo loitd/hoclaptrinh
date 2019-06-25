@@ -1,9 +1,10 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo optimize && expo start",
     "android": "expo start --android",
-    "ba": "expo build:android",
+    "ba": "expo optimize && expo build:android",
+    "ins": "adb -d install -r ./builds/weather-signed.apk",
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "node ./node_modules/jest/bin/jest.js --watchAll"
@@ -16,7 +17,8 @@
     "expo": "^32.0.0",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.0.9",
+    "lutilsjs": "^1.0.5"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",

@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, TextInput, View} from 'react-native';
+var {print} = require('lutilsjs');
 
 // props are immutable and are always“owned” by a component’s parent while state can be mutated and is “owned” by the component itself. 
 // This is an extremely important pattern to remember while building components with React Native.
@@ -10,6 +11,10 @@ export default class SearchInput extends React.Component{
         this.state = {
             location: '',
         };
+    }
+
+    componentDidMount(){
+        print("Yeah, SearchInput mounted!");
     }
     // This allows us to declare the member methods as arrow functions
     handleTxtChanged = (txt) => {
