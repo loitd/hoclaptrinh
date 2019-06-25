@@ -4641,10 +4641,10 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lutilsjs@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/lutilsjs/-/lutilsjs-1.0.5.tgz#f44aa750186005266364b3495309d8373fe9ead8"
-  integrity sha512-Ud+dkG3offMVgVEp6YlLzEpJioxF+c8zRMPSnjOp+LGJEB1SzaIASYEkBDeZjIV1hYUx+n/I2Oqu7l+C5OFXRw==
+lutilsjs@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/lutilsjs/-/lutilsjs-1.0.6.tgz#9eaceca1172315f1670ca883b66d3be8534ef05e"
+  integrity sha512-AOEWwizwG3+YPqWZRaj1EPaE/JpnVYepKDomOY3A+qyr3umhAz4cZYmf8ZlEDtMrKysWHd81mzEcWmuiWs2agA==
   dependencies:
     node-fetch "^2.6.0"
 
