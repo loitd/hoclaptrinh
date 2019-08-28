@@ -5,5 +5,10 @@
 *.xls
 *.xlsx
 *.pptx
+*.gliffy
+*.prproj
+*.ass
+*.srt
+*.png
 games
 node_modules

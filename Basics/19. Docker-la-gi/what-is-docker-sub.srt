@@ -1,0 +1,193 @@
+﻿1
+00:00:00,000 --> 00:00:03,120
+Hi guys and Welcome to my youtube channel.
+
+2
+00:00:03,120 --> 00:00:16,060
+Today I will talk about traditional architecture, Virtualization and containerization in just 5 slides, including this slide, also, to make you understand easily those technologies.
+
+3
+00:00:16,060 --> 00:00:25,760
+What is the different between them? How your apps run actually? The pros and cons of each architecture? In JUST, 5 SLIDES. Here we go.
+
+4
+00:00:25,780 --> 00:00:33,780
+I would like to start this explanation by telling you guys about what traditional architecture to run applications applied long time ago.
+
+5
+00:00:33,780 --> 00:00:41,400
+Have a look at the diagram, as you may see, starting with a physical server on the rack, we will install an operating system on that. 
+
+
+6
+00:00:41,400 --> 00:00:48,360
+The operating system can be Windows, Linux, MacOS, DOS, etc.
+
+7
+00:00:48,360 --> 00:01:00,540
+The next thing is to install drivers, libraries, packages that need by the applications. Those libraries could be Java, Python, NodeJs, dot Net, IIS, Apache, etc
+
+8
+00:01:00,540 --> 00:01:06,300
+The final step is the applications themselves run on top of those installed libraries.
+
+9
+00:01:06,300 --> 00:01:12,480
+That's simple, isn't it? But that's how a lot of applications run for a long time ago till now.
+
+
+10
+00:01:12,480 --> 00:01:24,500
+The down sides of this method are:
+1. libraries conflict: What if I have 2 applications, 1 app runs Java version 1.6, the other run Java 1.8.
+
+11
+00:01:24,500 --> 00:01:34,480
+Same with Python, Tomcat, etc. What if Java 1.6 and Java 1.8 require a library but with different version.
+
+12
+00:01:34,480 --> 00:01:41,600
+2. The next is applications conflict: What if my 2 applications want to publish on the same port.
+
+13
+00:01:41,600 --> 00:01:52,760
+What if 1 of my apps got unexpected exception that makes it consumes huge amount of resource like memory, CPU, etc and that makes other app hang, too.
+
+14
+00:01:52,760 --> 00:02:03,460
+3. Last but not least, this architecture is not flexible and secure enough: what if I have multiple apps managed by multiple administrators or developers.
+
+15
+00:02:03,460 --> 00:02:08,660
+They must all have access to the server with their accounts and that's so unsecured.
+
+16
+00:02:08,660 --> 00:02:14,940
+In some operating system, they do limit number of sessions logging in at the same time also.
+
+17
+00:02:14,940 --> 00:02:26,240
+What if, with some reason, I need to reinstall the Operating system or a required library or updating a library to a newer version would causes unexpected errors on other apps.
+
+18
+00:02:26,240 --> 00:02:38,200
+Now, go ahead to Virtualization slide. The most famous giant in Virtualization technology would be VMWare with VMWare Workstation & Vmware Vsphere ESX/ESXi.
+
+19
+00:02:38,200 --> 00:02:56,460
+The different between VMWare Workstation and VMWare Vsphere ESX/ESXi is while Workstation version runs as an app on Linux or Windows OS, Vsphere ESX/ESXi is like an independant operating system, called bare metal hypervisor run directly on physical server.
+
+20
+00:02:56,460 --> 00:03:03,020
+From Vsphere 5, ESX was removed, ESXi became the main hypervisor of Vsphere.
+
+21
+00:03:03,020 --> 00:03:13,140
+Back to our Virtualization slide, with a given physical server, instead of installing Windows, Linux OS, we'll install VMWare hypervisor as its operating system.
+
+22
+00:03:13,140 --> 00:03:19,380
+On that installed hypervisor, we create separated Virtual Machine, with specific amount of resources.
+
+23
+00:03:19,380 --> 00:03:26,980
+On that created Virtual Machine, we can install any ordinary operating system, like Windows, Linux called guest OS.
+
+24
+00:03:26,980 --> 00:03:34,020
+The next thing, as you might guess, is to install required libraries and, on top of those libraries, should be our apps.
+
+
+25
+00:03:34,020 --> 00:03:45,600
+Compare to the traditional architecture, the Virtualization architecture replaces the host operating system on the physical with its hypervisor, and, then install OS on top of this hypervisor.
+
+
+26
+00:03:45,600 --> 00:03:56,900
+This architecture can fix traditional architecture's cons:
+1. libraries conflict, and applications conflict: now apps can run at the separated VMs, which makes them not conflict with the others.
+
+27
+00:03:56,900 --> 00:04:12,020
+Says, I can run my first app on VM1 with Java 1.6, and, my second app on VM2, with Java 1.8. Because of that, those libraries can not be conflicted, and I can upgrade, or update any of my apps, without affecting other apps.
+
+28
+00:04:12,020 --> 00:04:21,960
+2. This architecture is flexible and secured: I can manage all kind of resources, allocated to each VM, so that VM never break the whole physical server.
+
+29
+00:04:21,960 --> 00:04:32,000
+Within multiple operator environment, we can grant access to VMs only, so, each app manager have rights to access to just this VM only, which makes it more secured.
+
+30
+00:04:32,000 --> 00:04:41,220
+Says, I can grant VM1 with 3GB of RAM and VM2, which is more important, 5GB of RAM, and they will run with those allocation.
+
+31
+00:04:41,220 --> 00:04:52,920
+Next slide is about containerization. This architecture becames very popular recently, and has had alot of attraction from giants like Google, Amazon, IBM, etc.
+
+32
+00:04:52,920 --> 00:04:59,200
+With a given physical server, we'll install an ordinary Linux operating system, onto that server.
+
+33
+00:04:59,200 --> 00:05:13,080
+Then we need to install containerization engine on that installed OS. The most famous containerization engine, is Docker engine, owned by Docker, which is very famous worldwide now with their containerization technology.
+
+34
+00:05:13,080 --> 00:05:28,400
+Upon this engine, we'll create containers, which contains all required libraries for applications to run on it. Says, I will create a Java 1.8 container, which included all required libraries to run Java 1.8 apps on that.
+
+35
+00:05:28,400 --> 00:05:39,440
+So, the question, what is docker? should be changed to What is containerization? Docker, in some way, has it role as important as VMWare in Virtualization technology.
+
+36
+00:05:39,440 --> 00:05:43,300
+That's why, sometimes, they can call docker instead of container.
+
+37
+00:05:43,300 --> 00:05:53,580
+Compare to traditional architecture, we will add containerization engine on top of Operating system, then all apps will run on top of containers, created to run on that engine.
+
+38
+00:05:53,580 --> 00:06:05,380
+This containerization architecture has some big pros:
+1. Lightweight: Compare to Virtualization, containerization seems more Lightweight as it isn't load all Operating system in VMs.
+
+39
+00:06:05,380 --> 00:06:18,740
+Containers have just required libraries for apps to run. This Lightweight, nowsaday, is money.
+2. Secure: As apps run on top of containers, the app itself, can access container resources only.
+
+40
+00:06:18,740 --> 00:06:25,320
+There're some complains about risks with dockers before, but nowsaday, it becomes more and more secure.
+
+41
+00:06:25,320 --> 00:06:35,660
+3. conflict prevention & flexible: containerization architecture provides all requirements about conflict prevention, & flexible as you can do with VMs.
+
+42
+00:06:35,660 --> 00:06:47,660
+Recently, containerization technology becames hot with some projects like Kubernetes, an open-source container-orchestration system for automating application deployment, scaling, and management.
+
+43
+00:06:47,660 --> 00:07:02,260
+It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation (CNCF). Let's see how far these trendings take us to. 
+Back to the slide, you can see here, I've sum up whole content of this presentation.
+
+44
+00:07:02,260 --> 00:07:14,000
+In the middle, it's traditional architecture with bare metal server. On the right side, with orange color, is Virtualization, on the left side, with blue color, is the containerization architecture.
+
+45
+00:07:14,000 --> 00:07:26,500
+Sometimes, in some cases, I used containers run on top of VMs to run my apps. This called HYBRID architecture, which combines both Virtualization and containerization in the same infrastructure.
+
+46
+00:07:26,500 --> 00:07:34,120
+That's all for today. Please remember to SUBSCRIBE my youtube channel for more interesting videos. Thank you, and see ya.
+
